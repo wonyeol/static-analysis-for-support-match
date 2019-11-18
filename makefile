@@ -17,13 +17,8 @@ batch-suite: batch.exe
 batch-examples: batch.exe
 	./batch.exe examples -q -to 10
 #-------------------------------
-# Continuity/differentiability
-diff: diff.exe
-diff.exe: dist
-	obuild build exe-diff.exe
-#-------------------------------
 # PHONY misc targets
-.PHONY: pyppai.exe batch.exe diff.exe \
+.PHONY: pyppai.exe batch.exe \
 	execs batch-suite batch-examples wc edit clean
 wc:
 	wc src/*ml src/*.mli
