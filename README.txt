@@ -97,8 +97,8 @@ d. Verbosity level:
 4. BATCH ANALYSIS
 
 The batch analysis executable is batch.exe. It runs in sequences series of
-tests defined in the file src/data.ml (see description below) and prints a
-synthetic summary of the results. It is possible to modify src/data.ml to
+tests defined in the file pyppai/data.ml (see description below) and prints a
+synthetic summary of the results. It is possible to modify pyppai/data.ml to
 include different series of test cases.
 There are two execution modes:
  - analysis of the Pyro test suite (39 model/guide pairs):
@@ -198,11 +198,11 @@ sub-directories:
   README.txt     this note
   makefile       the makefile to compile and run the main tests
   pyppai.obuild  the configuration for the OCaml build system obuild
-  src/           the source code of the analyser and batch system
-  test/          all test cases (our own and taken from Pyro examples and
+  pyppai/        the source code of the analyser and batch system
+  tests/         all test cases (our own and taken from Pyro examples and
                  Pyro test suite)
 
-The files in the src/ directory have the following roles:
+The files in the pyppai/ directory have the following roles:
 
 - Entry point for the bach mode:
  entry_batch.ml
@@ -254,5 +254,5 @@ The files in the src/ directory have the following roles:
 - Library and auxiliary functions:
  lib.ml
 
-The names of the test-cases in test/ are self-explanatory.
+The names of the test-cases in tests/ are self-explanatory.
 
