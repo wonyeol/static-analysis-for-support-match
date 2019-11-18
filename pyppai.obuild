@@ -1,0 +1,19 @@
+Name:           pyppai
+Version:        1.0
+Authors:        Yu Hangyeol, Lee Wonyeol, Yang Hongseok, Rival Xavier
+License:        GPL-3.0
+Synopsis:       FOPPL TEST
+obuild-ver:     1
+
+Executable pyppai.exe
+  oflags:       -warn-error PU
+  src-dir:      pyppai
+  main-is:      entry_analysis.ml
+  build-deps:   apron.boxMPQ,apron.octMPQ,apron.polkaMPQ,unix,stdcompat,pyml
+
+Executable batch.exe
+  oflags:       -warn-error PU
+  src-dir:      pyppai
+  main-is:      entry_batch.ml
+  build-deps:   apron.boxMPQ,apron.octMPQ,apron.polkaMPQ,unix,stdcompat,pyml
+
