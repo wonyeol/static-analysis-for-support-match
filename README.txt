@@ -179,14 +179,31 @@ machines, so you might obtain analysis times much longer than the
 times reported in Table 2. If you obtain different results from the
 above, try using a larger value of timeout (e.g., -to 200).
 
-We remark that the green boxes in #Diff column of Table 2(a) and
-Valid? column of Table 2(b) correspond to the following model-guide
-pairs:
+We remark that the green boxes in #Diff column of Table 2 (left) and
+Valid? column of Table 2 (right) correspond to the following
+model-guide pairs:
 
- - "BR example, original" in examples
- - "LDA example, original" in examples
  - "suite, n-wplate, nested_plate_plate_dim_error_1" in suite
  - "suite, n-wplate, nested_plate_plate_dim_error_3" in suite
+ - "BR example, original" in examples
+ - "LDA example, original" in examples
+
+More details on the model-guide pairs are described below: 
+
+ - For Table 2 (left), the two highlighted model-guide pairs in the
+   "Nested with-plates" category correspond to the pairs with name
+   "suite, n-wplate, nested_plate_plate_dim_error_1" and "..._error_3"
+   (i.e., with number 26 and 28) in the artifact. While they are
+   documented in Pyro suite as invalid pairs, we manually checked that
+   they are in fact valid pairs (as described in the paper). Hence, we
+   set "Expect" value for the pairs to "Valid", and our analysis
+   outputs "Valid" for both pairs.
+
+ - For Table 2 (right), the two highlighted examples are BR and LDA;
+   for each for these two, we present the original version (which is
+   reported as "Invalid" as expected) and the edited versions where we
+   try to solve the problem (note that, in the case of LDA, the first
+   edited version is still reported as incorrect, as it should be).
 
 
 
