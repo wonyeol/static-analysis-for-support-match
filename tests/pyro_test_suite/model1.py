@@ -1,0 +1,2 @@
+# test_empty_model_empty_guide_ok
+pass
