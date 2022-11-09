@@ -11,8 +11,14 @@ To evaluate the static analyser, we applied it to the Pyro examples and Pyro tes
 You can reproduce this experiment by running `make batch-suite` and `make batch-examples`.
 Refer to [README.txt](README.txt) for the details of our implementation and experiments.
 
-### Paper & Artifact
+### Paper
 
-- Paper: [Towards Verified Stochastic Variational Inference for Probabilistic Programs](https://arxiv.org/abs/1907.08827),
-  [POPL 2020](https://popl20.sigplan.org/).
-- Artifact: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3545194.svg)](https://doi.org/10.5281/zenodo.3545194)
+> [**Towards Verified Stochastic Variational Inference for Probabilistic Programs**](https://arxiv.org/abs/1907.08827)</br>
+> [Wonyeol Lee](https://cs.stanford.edu/people/wonyeol/),
+> [Xavier Rival](https://www.di.ens.fr/~rival/),
+> [Hongseok Yang](https://sites.google.com/view/hongseokyang/)</br>
+> [POPL 2020](https://popl20.sigplan.org/)
+
+### Artifact
+
+> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3545194.svg)](https://doi.org/10.5281/zenodo.3545194)
