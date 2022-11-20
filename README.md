@@ -14,7 +14,7 @@ Refer to [README.txt](README.txt) for the details of our implementation and expe
 ### Paper
 
 > [**Towards Verified Stochastic Variational Inference for Probabilistic Programs**](https://arxiv.org/abs/1907.08827)</br>
-> [Wonyeol Lee](https://cs.stanford.edu/people/wonyeol/),
+> [Wonyeol Lee](https://wonyeol.github.io/),
 > [Hangyeol Yu](https://scholar.google.com/citations?user=kGdWuzwAAAAJ),
 > [Xavier Rival](https://www.di.ens.fr/~rival/),
 > [Hongseok Yang](https://sites.google.com/view/hongseokyang/)</br>
